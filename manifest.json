@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Setup",
+  "description": "Chrome Setup.",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Chrome Setup"
+  },
+
+ 
+   "permissions": ["clipboardWrite", "scripting", "activeTab", "localStorage"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

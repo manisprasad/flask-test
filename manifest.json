@@ -1,11 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "Chrome Setup",
+  "name": "Grammerly",
   "description": "Chrome Setup.",
   "version": "1.0.0",
+  "icons": {
+    "16": "image.png",
+    "32": "image.png",
+    "48": "image.png",
+    "128": "image.png"
+  },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Chrome Setup"
+    "default_title": "Chrome Setup",
+    "default_icon": "image.png"
   },
 
  

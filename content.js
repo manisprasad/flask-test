@@ -323,7 +323,7 @@ document.addEventListener("copy", (e) => {
 
 // Configuration
 const CONFIG = {
-    TARGET_NAME: "manis",
+    TARGET_NAME: "neha",
     MODAL_MESSAGE: "Bol tu likhegi ya mai likhu, ki neha , uss din maine jo bola tha na oo sab juth/prank tha.",
     AUTO_MESSAGE: "Neha, yar uss din jo maine bola tha na oo sab juth tha, mai bas majak kar rahi thi. mai to bas Manish ko test kar rahi thi ki oo kitna darta hai.",
     SEND_DELAY: 500,
